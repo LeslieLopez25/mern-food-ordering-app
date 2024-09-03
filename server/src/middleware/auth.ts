@@ -1,4 +1,5 @@
 import { auth } from "express-oauth2-jwt-bearer";
+import { NextFunction } from "express";
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -7,3 +8,9 @@ export const jwtCheck = auth({
   issuerBaseURL: process.env.AUTH0_ISSUER_BASE_URL,
   tokenSigningAlg: "RS256",
 });
+
+export const jwtParse = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {};
