@@ -14,8 +14,8 @@ Live Site: [MernEats](https://mern-food-ordering-app-frontend-60f4.onrender.com/
 
 ## Clone the repo
 
-<pre><code>```git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name```</pre></code>
+<pre><code>git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name</pre></code>
 
 ## Install dependencies
 
