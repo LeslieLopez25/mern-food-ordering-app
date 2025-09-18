@@ -1,14 +1,19 @@
 {
   "name": "e2e-tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "End-to-end tests for the food ordering app",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "servers": "npm run dev --prefix ../client & npm run dev --prefix ../server",
+    "e2e": "playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.55.0",
-    "@types/node": "^24.3.1"
+    "@types/node": "^24.3.1",
+    "dotenv": "^17.2.2",
+    "typescript": "^5.5.4"
   }
 }

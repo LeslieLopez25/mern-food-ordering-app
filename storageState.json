@@ -1,0 +1,45 @@
+{
+  "cookies": [
+    {
+      "name": "did",
+      "value": "s%3Av0%3A103e11d4-8d63-4eff-b8c1-d770e7a0391e%3Aa7f990c2d2a72315b355b9355b2cae33e8f2e51eb79b947f8bf560bb7ab5e660.9O2jiEVhF%2BAefCd9AL4t3bDeFMa6elim3LtD6QwqHKM",
+      "domain": "dev-o0dq2sgo2iap3dgm.us.auth0.com",
+      "path": "/",
+      "expires": 1789735831.654193,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3A103e11d4-8d63-4eff-b8c1-d770e7a0391e%3Aa7f990c2d2a72315b355b9355b2cae33e8f2e51eb79b947f8bf560bb7ab5e660.9O2jiEVhF%2BAefCd9AL4t3bDeFMa6elim3LtD6QwqHKM",
+      "domain": "dev-o0dq2sgo2iap3dgm.us.auth0.com",
+      "path": "/",
+      "expires": 1789735831.654334,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3AL6J4ii7H1vtjsigYd8fTFpszqxI-vs_l.3UDvPTNqonp00t6JAJPkPOKTvwth6jCDstOnNUcM2IE",
+      "domain": "dev-o0dq2sgo2iap3dgm.us.auth0.com",
+      "path": "/",
+      "expires": 1758437432.000825,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3AL6J4ii7H1vtjsigYd8fTFpszqxI-vs_l.3UDvPTNqonp00t6JAJPkPOKTvwth6jCDstOnNUcM2IE",
+      "domain": "dev-o0dq2sgo2iap3dgm.us.auth0.com",
+      "path": "/",
+      "expires": 1758437432.000963,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
