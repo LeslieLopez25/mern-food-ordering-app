@@ -1,0 +1,83 @@
+{
+  "cookies": [
+    {
+      "name": "did",
+      "value": "s%3Av0%3Ad3cfe245-d2e3-4a6b-a7aa-6b4eb1e7f9fc%3Aa7f990c2d2a72315b355b9355b2cae33e8f2e51eb79b947f8bf560bb7ab5e660.5Aa6Vwyp22SJmSSf51BoNuP8zkCtt%2Bvdzl8P%2Fkvgm10",
+      "domain": "dev-o0dq2sgo2iap3dgm.us.auth0.com",
+      "path": "/",
+      "expires": 1789895503.519603,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3Ad3cfe245-d2e3-4a6b-a7aa-6b4eb1e7f9fc%3Aa7f990c2d2a72315b355b9355b2cae33e8f2e51eb79b947f8bf560bb7ab5e660.5Aa6Vwyp22SJmSSf51BoNuP8zkCtt%2Bvdzl8P%2Fkvgm10",
+      "domain": "dev-o0dq2sgo2iap3dgm.us.auth0.com",
+      "path": "/",
+      "expires": 1789895503.519736,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3AjPFqAATK6A-GEctVnNlm85azjUTwLJ2K.VHlpVhGD4jdwU7yl3wKX0OlfFnMcihu5uytGHDdP6r0",
+      "domain": "dev-o0dq2sgo2iap3dgm.us.auth0.com",
+      "path": "/",
+      "expires": 1758597103.763695,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3AjPFqAATK6A-GEctVnNlm85azjUTwLJ2K.VHlpVhGD4jdwU7yl3wKX0OlfFnMcihu5uytGHDdP6r0",
+      "domain": "dev-o0dq2sgo2iap3dgm.us.auth0.com",
+      "path": "/",
+      "expires": 1758597103.763781,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_legacy_auth0.EB4V7wyrVqWuvdcvFz7IGuEwaVRctT31.is.authenticated",
+      "value": "true",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1758424304,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0.EB4V7wyrVqWuvdcvFz7IGuEwaVRctT31.is.authenticated",
+      "value": "true",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1758424304,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://localhost:5173",
+      "localStorage": [
+        {
+          "name": "@@auth0spajs@@::EB4V7wyrVqWuvdcvFz7IGuEwaVRctT31::mern-food-ordering-app::openid profile email offline_access",
+          "value": "{\"body\":{\"access_token\":\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjJvZ3haXzA3VjV3Zi1ORGJady1UVyJ9.eyJpc3MiOiJodHRwczovL2Rldi1vMGRxMnNnbzJpYXAzZGdtLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2OGNiODg3NzZjNjVhMTdlOGU3ZjEwNzgiLCJhdWQiOlsibWVybi1mb29kLW9yZGVyaW5nLWFwcCIsImh0dHBzOi8vZGV2LW8wZHEyc2dvMmlhcDNkZ20udXMuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTc1ODMzNzkwNywiZXhwIjoxNzU4NDI0MzA3LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwiYXpwIjoiRUI0Vjd3eXJWcVd1dmRjdkZ6N0lHdUV3YVZSY3RUMzEifQ.glX2CTISUX5xxub7WmK1g2KB3I1HaYv21q6qlXXvOzogiXQKmYWwlbBmdlpW8sBQFiqZ5b4DTbGgB9jrUbl-XYfumhUUlpRbEn4rM7v9nUqCMKOLJ9rwESREsamvk5n9AuUBF20rqClrYDQqgw9RMVKBGhiS3TiOOsO00nzGShSCqA285o9QSluFkRdCMujKAoelUY-I1ExM8m8RD5eeGBHKasRg6ZGBupN0c3f7xGV2TdD5bvRzGh-uPt60mfm9uhfSC7SXSnu2SpZkvlelwmtvph-0gekYfkHwEGXjhowPN7-HlksR-sJx8QyDxaGQetkCvkzsfplCGq1Agz9ALw\",\"scope\":\"openid profile email offline_access\",\"expires_in\":86400,\"token_type\":\"Bearer\",\"audience\":\"mern-food-ordering-app\",\"oauthTokenScope\":\"openid profile email\",\"client_id\":\"EB4V7wyrVqWuvdcvFz7IGuEwaVRctT31\"},\"expiresAt\":1758424304}"
+        },
+        {
+          "name": "browser-tabs-lock-key-auth0.lock.getTokenSilently",
+          "value": "{\"id\":\"1758337903913ILFOCRRmE4EibTN\",\"iat\":\"1758337904327ntpm\",\"timeoutKey\":\"1758337903913ILFOCRRmE4EibTN-auth0.lock.getTokenSilently-1758337904327ntpm\",\"timeAcquired\":1758337904365,\"timeRefreshed\":1758337904365}"
+        },
+        {
+          "name": "@@auth0spajs@@::EB4V7wyrVqWuvdcvFz7IGuEwaVRctT31::@@user@@",
+          "value": "{\"id_token\":\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjJvZ3haXzA3VjV3Zi1ORGJady1UVyJ9.eyJuaWNrbmFtZSI6InRlc3Rmb29kYXBwIiwibmFtZSI6InRlc3Rmb29kYXBwQHRlc3QuY29tIiwicGljdHVyZSI6Imh0dHBzOi8vcy5ncmF2YXRhci5jb20vYXZhdGFyL2UyMDY2Y2NmNTIwNDQwYTg1ODU4Mjg1ZGI0ZDdkNDNmP3M9NDgwJnI9cGcmZD1odHRwcyUzQSUyRiUyRmNkbi5hdXRoMC5jb20lMkZhdmF0YXJzJTJGdGUucG5nIiwidXBkYXRlZF9hdCI6IjIwMjUtMDktMjBUMDM6MTE6NDYuNjIzWiIsImVtYWlsIjoidGVzdGZvb2RhcHBAdGVzdC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOi8vZGV2LW8wZHEyc2dvMmlhcDNkZ20udXMuYXV0aDAuY29tLyIsImF1ZCI6IkVCNFY3d3lyVnFXdXZkY3ZGejdJR3VFd2FWUmN0VDMxIiwic3ViIjoiYXV0aDB8NjhjYjg4Nzc2YzY1YTE3ZThlN2YxMDc4IiwiaWF0IjoxNzU4MzM3OTA3LCJleHAiOjE3NTgzNzM5MDcsInNpZCI6ImVOYTZYaWRnWm40dkZhbzJlU1NlNzBiUjUzaHA2eE9xIiwibm9uY2UiOiJja1F6Y1V0aGREUkhaV1l5VW5aeGZtVlJNbFJNTWtobU1uUndXR1o1Tm1zdFZHTTBkbFoyTTFNMWFRPT0ifQ.NhtqOTyEz7ukhgBOKU_nxrHbOrSYyXqx8tra7HfyoaCYG4XYKXiw514l-_s3JqpEvgMv645qUUdxBqwE4RRFoNH7ZheqshurySlx8fPdurlkpkcVvKcXemkpmqTcJmjp47Pf9BYZOQF6Ke8DAG-0-_kUNNjtnDBTSKkCWer0lF8UAIRN_fJzLdyRxFHNfLvcTDRSd5FbTr9LjRPjz1x1OwGaxW66tof1cf-FnJ0_VXPfTQ9CjLhwXMZNwotFaEgKdOm03JFDhAggepuFNas7y26dPdFI9XfLwFUDDXyRR2FDM_gCaFSefpmZ5Yuqfe5x-PGIQF-LZc8Kd4p-IkMu9Q\",\"decodedToken\":{\"encoded\":{\"header\":\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjJvZ3haXzA3VjV3Zi1ORGJady1UVyJ9\",\"payload\":\"eyJuaWNrbmFtZSI6InRlc3Rmb29kYXBwIiwibmFtZSI6InRlc3Rmb29kYXBwQHRlc3QuY29tIiwicGljdHVyZSI6Imh0dHBzOi8vcy5ncmF2YXRhci5jb20vYXZhdGFyL2UyMDY2Y2NmNTIwNDQwYTg1ODU4Mjg1ZGI0ZDdkNDNmP3M9NDgwJnI9cGcmZD1odHRwcyUzQSUyRiUyRmNkbi5hdXRoMC5jb20lMkZhdmF0YXJzJTJGdGUucG5nIiwidXBkYXRlZF9hdCI6IjIwMjUtMDktMjBUMDM6MTE6NDYuNjIzWiIsImVtYWlsIjoidGVzdGZvb2RhcHBAdGVzdC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOi8vZGV2LW8wZHEyc2dvMmlhcDNkZ20udXMuYXV0aDAuY29tLyIsImF1ZCI6IkVCNFY3d3lyVnFXdXZkY3ZGejdJR3VFd2FWUmN0VDMxIiwic3ViIjoiYXV0aDB8NjhjYjg4Nzc2YzY1YTE3ZThlN2YxMDc4IiwiaWF0IjoxNzU4MzM3OTA3LCJleHAiOjE3NTgzNzM5MDcsInNpZCI6ImVOYTZYaWRnWm40dkZhbzJlU1NlNzBiUjUzaHA2eE9xIiwibm9uY2UiOiJja1F6Y1V0aGREUkhaV1l5VW5aeGZtVlJNbFJNTWtobU1uUndXR1o1Tm1zdFZHTTBkbFoyTTFNMWFRPT0ifQ\",\"signature\":\"NhtqOTyEz7ukhgBOKU_nxrHbOrSYyXqx8tra7HfyoaCYG4XYKXiw514l-_s3JqpEvgMv645qUUdxBqwE4RRFoNH7ZheqshurySlx8fPdurlkpkcVvKcXemkpmqTcJmjp47Pf9BYZOQF6Ke8DAG-0-_kUNNjtnDBTSKkCWer0lF8UAIRN_fJzLdyRxFHNfLvcTDRSd5FbTr9LjRPjz1x1OwGaxW66tof1cf-FnJ0_VXPfTQ9CjLhwXMZNwotFaEgKdOm03JFDhAggepuFNas7y26dPdFI9XfLwFUDDXyRR2FDM_gCaFSefpmZ5Yuqfe5x-PGIQF-LZc8Kd4p-IkMu9Q\"},\"header\":{\"alg\":\"RS256\",\"typ\":\"JWT\",\"kid\":\"2ogxZ_07V5wf-NDbZw-TW\"},\"claims\":{\"__raw\":\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjJvZ3haXzA3VjV3Zi1ORGJady1UVyJ9.eyJuaWNrbmFtZSI6InRlc3Rmb29kYXBwIiwibmFtZSI6InRlc3Rmb29kYXBwQHRlc3QuY29tIiwicGljdHVyZSI6Imh0dHBzOi8vcy5ncmF2YXRhci5jb20vYXZhdGFyL2UyMDY2Y2NmNTIwNDQwYTg1ODU4Mjg1ZGI0ZDdkNDNmP3M9NDgwJnI9cGcmZD1odHRwcyUzQSUyRiUyRmNkbi5hdXRoMC5jb20lMkZhdmF0YXJzJTJGdGUucG5nIiwidXBkYXRlZF9hdCI6IjIwMjUtMDktMjBUMDM6MTE6NDYuNjIzWiIsImVtYWlsIjoidGVzdGZvb2RhcHBAdGVzdC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOi8vZGV2LW8wZHEyc2dvMmlhcDNkZ20udXMuYXV0aDAuY29tLyIsImF1ZCI6IkVCNFY3d3lyVnFXdXZkY3ZGejdJR3VFd2FWUmN0VDMxIiwic3ViIjoiYXV0aDB8NjhjYjg4Nzc2YzY1YTE3ZThlN2YxMDc4IiwiaWF0IjoxNzU4MzM3OTA3LCJleHAiOjE3NTgzNzM5MDcsInNpZCI6ImVOYTZYaWRnWm40dkZhbzJlU1NlNzBiUjUzaHA2eE9xIiwibm9uY2UiOiJja1F6Y1V0aGREUkhaV1l5VW5aeGZtVlJNbFJNTWtobU1uUndXR1o1Tm1zdFZHTTBkbFoyTTFNMWFRPT0ifQ.NhtqOTyEz7ukhgBOKU_nxrHbOrSYyXqx8tra7HfyoaCYG4XYKXiw514l-_s3JqpEvgMv645qUUdxBqwE4RRFoNH7ZheqshurySlx8fPdurlkpkcVvKcXemkpmqTcJmjp47Pf9BYZOQF6Ke8DAG-0-_kUNNjtnDBTSKkCWer0lF8UAIRN_fJzLdyRxFHNfLvcTDRSd5FbTr9LjRPjz1x1OwGaxW66tof1cf-FnJ0_VXPfTQ9CjLhwXMZNwotFaEgKdOm03JFDhAggepuFNas7y26dPdFI9XfLwFUDDXyRR2FDM_gCaFSefpmZ5Yuqfe5x-PGIQF-LZc8Kd4p-IkMu9Q\",\"nickname\":\"testfoodapp\",\"name\":\"testfoodapp@test.com\",\"picture\":\"https://s.gravatar.com/avatar/e2066ccf520440a85858285db4d7d43f?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fte.png\",\"updated_at\":\"2025-09-20T03:11:46.623Z\",\"email\":\"testfoodapp@test.com\",\"email_verified\":false,\"iss\":\"https://dev-o0dq2sgo2iap3dgm.us.auth0.com/\",\"aud\":\"EB4V7wyrVqWuvdcvFz7IGuEwaVRctT31\",\"sub\":\"auth0|68cb88776c65a17e8e7f1078\",\"iat\":1758337907,\"exp\":1758373907,\"sid\":\"eNa6XidgZn4vFao2eSSe70bR53hp6xOq\",\"nonce\":\"ckQzcUthdDRHZWYyUnZxfmVRMlRMMkhmMnRwWGZ5NmstVGM0dlZ2M1M1aQ==\"},\"user\":{\"nickname\":\"testfoodapp\",\"name\":\"testfoodapp@test.com\",\"picture\":\"https://s.gravatar.com/avatar/e2066ccf520440a85858285db4d7d43f?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fte.png\",\"updated_at\":\"2025-09-20T03:11:46.623Z\",\"email\":\"testfoodapp@test.com\",\"email_verified\":false,\"sub\":\"auth0|68cb88776c65a17e8e7f1078\"}}}"
+        }
+      ]
+    }
+  ]
+}

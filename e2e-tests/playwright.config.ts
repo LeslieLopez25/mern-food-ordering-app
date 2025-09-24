@@ -17,32 +17,34 @@ export default defineConfig({
   },
   projects: [
     {
-      // Runs first to perform login
       name: "setup",
       testMatch: /auth\.setup\.ts/,
       use: { storageState: undefined },
     },
     {
       name: "chromium",
+      testMatch: /.*\.spec\.ts$/,
       use: {
         ...devices["Desktop Chrome"],
-        storageState: path.join(__dirname, "storageState.json"), // saved session
+        storageState: path.join(__dirname, "storageState.json"),
       },
       dependencies: ["setup"],
     },
     {
       name: "firefox",
+      testMatch: /.*\.spec\.ts$/,
       use: {
         ...devices["Desktop Firefox"],
-        storageState: path.join(__dirname, "storageState.json"), // saved session
+        storageState: path.join(__dirname, "storageState.json"),
       },
       dependencies: ["setup"],
     },
     {
       name: "webkit",
+      testMatch: /.*\.spec\.ts$/,
       use: {
         ...devices["Desktop Safari"],
-        storageState: path.join(__dirname, "storageState.json"), // saved session
+        storageState: path.join(__dirname, "storageState.json"),
       },
       dependencies: ["setup"],
     },
