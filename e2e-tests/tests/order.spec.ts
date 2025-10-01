@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-const UI_URL = "http://localhost:5173";
+const UI_URL = "http://localhost:5174";
 
 const TEST_AUTH0_EMAIL = process.env.TEST_AUTH0_EMAIL ?? "test@example.com";
 

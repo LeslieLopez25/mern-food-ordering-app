@@ -5,7 +5,7 @@ import path from "path";
 dotenv.config({ path: path.resolve(__dirname, "../.env.e2e") });
 
 const authFile = path.resolve(__dirname, "../storageState.json");
-const UI_URL = "http://localhost:5173";
+const UI_URL = "http://localhost:5174";
 
 test("authenticate", async ({ page }) => {
   await page.goto(UI_URL);
