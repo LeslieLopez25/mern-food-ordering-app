@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 
 dotenv.config({ path: path.resolve(__dirname, "./.env.e2e") });
 
+process.env.NODE_ENV = "test";
+
 export default defineConfig({
   testDir: "./tests",
   fullyParallel: true,
@@ -54,11 +56,17 @@ export default defineConfig({
       command: "npm run dev --prefix ../client",
       port: 5174,
       reuseExistingServer: !process.env.CI,
+      env: {
+        NODE_ENV: "test",
+      },
     },
     {
       command: "npm run dev --prefix ../server",
       port: 7000,
       reuseExistingServer: !process.env.CI,
+      env: {
+        NODE_ENV: "test",
+      },
     },
   ],
 });
