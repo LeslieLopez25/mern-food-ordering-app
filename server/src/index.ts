@@ -18,18 +18,23 @@ mongoose.connect(process.env.MONGODB_CONNECTION_STRING as string);
 
 const app = express();
 
-  app.use(
-  cors({
-    origin: ["http://localhost:5174",
-  "http://127.0.0.1:5174", process.env.FRONTEND_URL as string],
-    credentials: true,
-  })
-);
-
 // Stripe webhook must use raw body
 app.use("/api/order/checkout/webhook", express.raw({ type: "*/*" }));
 
 app.use(express.json());
+
+ const allowedOrigins = [
+  "http://localhost:5174",
+  "http://127.0.0.1:5174",
+  process.env.FRONTEND_URL,
+].filter((o): o is string => Boolean(o));
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
 
 // Health check
 app.get("/health", (req: Request, res: Response) => {
